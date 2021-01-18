@@ -52,17 +52,17 @@
 /**
  * テンプレート文字列
  */
-const name = "hey";
-const age = "22";
-// 私の名前はnameです。年齢はageです。
+// const name = "hey";
+// const age = "22";
+// // 私の名前はnameです。年齢はageです。
 
-// 従来
-const message1 = "私の名前は " + name + "です。年齢は" + age + "です。";
-console.log(message1);
+// // 従来
+// const message1 = "私の名前は " + name + "です。年齢は" + age + "です。";
+// console.log(message1);
 
-// テンプレート文字列を用いる
-const message2 = `私の名前は${name}です。年齢は${age}です。`;
-console.log(message2);
+// // テンプレート文字列を用いる
+// const message2 = `私の名前は${name}です。年齢は${age}です。`;
+// console.log(message2);
 
 /**
  * アロー関数
@@ -71,13 +71,27 @@ console.log(message2);
 // function func1(str) {
 //   return str;
 // }
-const func1 = function (str) {
-  return str;
-};
-console.log(func1("aaa"));
+// const func1 = function (str) {
+//   return str;
+// };
+// console.log(func1("aaa"));
 
-// アロー関数
-const func2 = (str) => {
-  return str;
+// // アロー関数
+// const func2 = (str) => {
+//   return str;
+// };
+// console.log(func2("222"));
+
+// const func3 = (str1, str2) => {
+//   return str1 + str2;
+// };
+// console.log(func3("ano","neee"));
+
+/**
+ * 分割代入
+ */
+
+const myProfile = {
+  name: "nammme",
+  age: 222
 };
-console.log(func2("222"));
